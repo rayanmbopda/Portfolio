@@ -1,0 +1,144 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E4FCFB;
+        padding: 10px;
+
+}
+Ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+ul li a:hover{
+    font-weight: bold;
+}
+ul li a:active{
+    transform: scale(0.95);
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold; 
+    color: #20A5D2;
+    font-style: Inter;
+}
+.page_active{
+   background-color:  #017faa;
+   color: white;
+   border-radius: 50px;
+   padding: 10px 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+img{
+   width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+.boite1{   
+    display: flex;
+    width: 300px;
+    height: 500px;
+}
+.boite2{
+    width: 300px;
+    height: 500px;
+    margin-top: 0%;
+}
+
+form{   
+    width: 300px;
+    height: 500px;
+    background-color: #C1F2F1;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}    
+
+textarea{
+    resize: none;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+label{
+    font-size: 18px;
+    line-height: 1.5;
+    display: block;
+    
+}
+
+input[type="submit"]{
+    padding: 20px;
+    margin: auto;
+    background-color: #ec4ba1ce;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    width: 50%;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    margin-top: 35px;
+    
+    
+}
+input[type="text"] ,textarea{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-family: sans-serif;
+    width: 80%;
+}
+input[type="text"]:focus, textarea:focus{
+    border:1.5px solid rgb(4, 125, 161);
+    outline: none;
+
+}
+input[type="text"]:hover, textarea:hover{
+    border: 1.3px solid rgb(8, 186, 221);
+}
+footer{
+    background-color: #D9D9D9;
+    height: 120px; 
+    width: 100%; 
+    text-align: center;  
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.icon1, .icon2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 40px;
+}
+.icon1 a, .icon2 a{
+    display: flex;
+    align-items: left;
+    text-decoration: none;
+    color: black;
+}
